@@ -1,0 +1,229 @@
+<html>
+<head>
+    <title>Online Book Store</title>
+</head>
+<frameset rows="20%,*">
+        <frame name="f1" src="firstPage.html" scrolling="no"></frame>
+ <frameset cols="30%,50%,*">
+    <frame name="f7" src="registration.html"></frame>
+    <frame name="f8" src="catLog.html"></frame>
+    <frame name="9" src="login.html"></frame>
+    </frameset>
+</frameset>        
+</html>
+
+
+{% comment %} firstPage  {% endcomment %}
+<html>
+  <head>
+    <title></title>
+    <style>
+      A {
+        margin: 110px;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center" style="-webkit-text-fill-color: brown">
+      <u>Book Store</u>
+    </h1><br>
+    <h3><a><b>Home</b></a>
+    <a><b>Best Seller</b></a>
+    <a><b>Contact</b></a>
+    <a><b>About</b></a>
+    <a><b>Feedback</b></a></h3>
+  </body>
+</html>
+
+
+{% comment %} Registration page  {% endcomment %}
+<html>
+<head>
+<title> Registration </title>
+</head>
+<fieldset>
+<body>
+<form>
+<h2 align="center">Registration From</h2>
+<table align="center" cellscaping="5px">
+<tr>
+<td> Name:</td>
+<td><input name="uname" type="text"></td><br>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input name="pwd" type="password"></td>
+</tr>
+<tr>
+<td>Confirm Password:</td>
+<td><input name="pwd" type="password"></td>
+</tr>
+<tr>
+<td>email:</td>
+<td><input name="email" type="text"></td>
+</tr>
+<tr>
+<td>Phone Number:</td>
+<td><input name="phno" type="text" maxlength="10"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input name="gender" type="radio" value="Male">Male
+<input name="gender" type="radio" value="Female">Female</td>
+</tr>
+<tr>
+<td>DOB:</td>
+<td><input name="date" name="dob"/></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><textarea></textarea></td>
+</tr>
+<br>
+    <tr>
+        <td>
+<label for="Course">Course:</label></td>
+  <td><select name="Course" id="Course">
+    <option value="MCA">MCA</option>
+    <option value="MBA">BCA</option>
+    <option value="B.E.">B.E.</option>
+    <option value="BCA">MBA</option>
+  </select>
+</td>
+</tr>
+
+<tr>
+<td>Books:</td>
+<td>
+    <input name="lk" type="checkbox" value="Web Technology">Web Technology<br>
+    <input name="lk" type="checkbox" value="Computer Programming">Computer Programming<br>
+<input name="lk" type="checkbox" value="Mathematics">Mathematics<br>
+<input name="lk" type="checkbox" value="Other">Other
+</td>
+</tr>
+</table>
+<br>
+<table align="center">
+<tr align="center">
+<td colsapn="2" align="center"><input type="Submit" value="Register">
+<input type="reset" value="Cancel"></td>
+</tr>
+</table>
+
+</form>
+</body>
+</fieldset>
+</html>
+
+
+{% comment %} // catlog page {% endcomment %}
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<form>
+    <h2 align="center" >Books available in Website</h2>
+<table align="center" border="2"cellspacing="3" >
+<tr align="center">
+    <td ><b>Sr.NO.</b></td>
+    <td><b>Book Name</b></td>
+    <td><b> Author</b></td>
+    <td><b>Publication/Edition</b></td>
+</tr>
+<tr>
+    <td align="center">1</td>
+    <td>Discrete Mathematics structures</td>
+    <td>Bernard kolman, Robert C. Busby<br> & Sharon Ross</td>
+    <td>3rd Edition<br>Prentice-Hall India</td>
+</tr>
+<tr>
+    <td align="center">2</td>
+    <td>Data Communication and Networking</td>
+    <td>Behrouz A. Forouzan</td>
+    <td>5th Edition<br>McGraw Hill<br> Education India</td>
+</tr>
+<tr>
+    <td align="center">3</td>
+    <td>Core Web Programming</td>
+    <td>Marty Hall & Larry Brown</td>
+    <td>2nd Edition<br>Person Education<br>2001</td>
+</tr>
+<tr>
+    <td align="center">4</td>
+    <td>Let us C Programming</td>
+    <td>Yashvant Kanetkar</td>
+    <td>BPB Publication</td>
+</tr>
+<tr>
+    <td align="center">5</td>
+    <td>CSS-Definitive Guide</td>
+    <td>Eric Meyer</td>
+    <td>Oreilly<br>publication</td>
+</tr>
+<tr>
+    <td align="center">6</td>
+    <td >Web technology A Computer Science</td>
+    <td>Jeffrey C. Jackson</td>
+    <td>Pearson Education<br> 2006</td>
+</tr>
+<tr>
+    <td align="center">7</td>
+    <td>Python Programming</td>
+    <td>Shakespeare</td>
+    <td>Higher</td>
+</tr>
+<tr>
+    <td align="center">8</td>
+    <td>Software Engineering</td>
+    <td>Roger S. Pressman</td>
+    <td>McGraw Hill<br>Internation Edition</td>
+</tr>
+<tr>
+    <td align="center">9</td>
+    <td>Indian Economy</td>
+    <td>StudyIQ Publications</td>
+    <td> 2nd Edition</td>
+</tr>
+<tr>
+    <td align="center">10</td>
+    <td>Indian Polity</td>
+    <td> StudyIQ Publications</td>
+    <td>1st Print Edition</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+{% comment %} login page  {% endcomment %}
+<html>
+<head>
+<title>Login</title>
+</head>
+<body>
+<form>
+<h2 align="center">Login Page</h2>
+<table align="center" cellspacing="15px">
+<tr>
+<td><b>Login Id</b></td>
+<td><input type="text" name="uname" /></td>
+</tr>
+<tr>
+<td><b>Password</b></td>
+<td><input type="password" name="upwd" /></td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+<input type="submit"/>
+<input type="reset"/>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
